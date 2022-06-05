@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  text-align: center;
+  min-height: 100vh;
+  background-color: antiquewhite;
+  padding: 10px;
+}
+.score{
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.choice{
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+}
+.computerHand{
+  width: 250px;
+}
+.userHand{
+  width: 250px;
+  transform: rotateY(180deg);
+}
+.button-div{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.button{
+  width: 150px;
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+  background-color:cadetblue ;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.result{
+  padding: 50px;
+}
